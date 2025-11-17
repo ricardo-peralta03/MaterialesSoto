@@ -1,0 +1,201 @@
+{
+  "project_info": {
+    "project_number": "686968380083",
+    "firebase_url": "https://gift-store-6132e-default-rtdb.firebaseio.com",
+    "project_id": "gift-store-6132e",
+    "storage_bucket": "gift-store-6132e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686968380083:android:0d6516b832e59d040d6ec6",
+        "android_client_info": {
+          "package_name": "com.example.e401"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4UNgajxwAazrBBMsRoYw-xcsoSKJ6KKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686968380083:android:ca668c48bedf0bda0d6ec6",
+        "android_client_info": {
+          "package_name": "com.example.t401_2024"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4UNgajxwAazrBBMsRoYw-xcsoSKJ6KKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686968380083:android:2ad1f26d46a679f10d6ec6",
+        "android_client_info": {
+          "package_name": "mx.tecnm.cafeconpan.a401gs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4UNgajxwAazrBBMsRoYw-xcsoSKJ6KKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686968380083:android:aef3a728dbc7612f0d6ec6",
+        "android_client_info": {
+          "package_name": "mx.tecnm.cafeconpan.e401_equipo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4UNgajxwAazrBBMsRoYw-xcsoSKJ6KKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686968380083:android:bc8c0b9230f9ff6f0d6ec6",
+        "android_client_info": {
+          "package_name": "mx.tecnm.cafeconpan.giftstore401"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4UNgajxwAazrBBMsRoYw-xcsoSKJ6KKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686968380083:android:3aedcfa75a2bd5620d6ec6",
+        "android_client_info": {
+          "package_name": "mx.tecnm.cdhidalgo.e401_2024"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4UNgajxwAazrBBMsRoYw-xcsoSKJ6KKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686968380083:android:a46724b56bee29140d6ec6",
+        "android_client_info": {
+          "package_name": "mx.tecnm.cdhidalgo.giftstore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4UNgajxwAazrBBMsRoYw-xcsoSKJ6KKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686968380083:android:42a857c999c889760d6ec6",
+        "android_client_info": {
+          "package_name": "mx.tecnm.cdhidalgo.materialessoto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4UNgajxwAazrBBMsRoYw-xcsoSKJ6KKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686968380083:android:032a6868416654800d6ec6",
+        "android_client_info": {
+          "package_name": "mx.tecnm.cdhidalgo.tiendaregalos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4UNgajxwAazrBBMsRoYw-xcsoSKJ6KKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686968380083:android:39f17028ea75d0f50d6ec6",
+        "android_client_info": {
+          "package_name": "mx.tecnm.cdhidalgoedu.e4022024"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4UNgajxwAazrBBMsRoYw-xcsoSKJ6KKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
