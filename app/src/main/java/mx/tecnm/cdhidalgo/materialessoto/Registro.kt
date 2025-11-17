@@ -2,12 +2,19 @@ package mx.tecnm.cdhidalgo.materialessoto
 
 import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
+import android.util.Pair
+import android.view.animation.Animation
+import android.view.animation.AnimationUtils
 import android.widget.Button
+import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.google.android.material.textfield.TextInputLayout
+import kotlin.jvm.java
 
 class Registro : AppCompatActivity() {
     private lateinit var nombre: TextInputLayout
@@ -17,7 +24,6 @@ class Registro : AppCompatActivity() {
     private lateinit var password: TextInputLayout
     private lateinit var btn_registrar: Button
     private lateinit var btn_estoyregistrado: Button
-
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
