@@ -14,7 +14,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class Splashapp : AppCompatActivity() {
+class splashapp : AppCompatActivity() {
     private lateinit var logo: ImageView
     private lateinit var animacion: Animation
     override fun onCreate(savedInstanceState: Bundle?) {
