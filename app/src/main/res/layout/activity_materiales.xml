@@ -9,14 +9,345 @@
     tools:context=".materiales">
 
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Binvenido a la tienda"
-        android:textStyle="bold"
-        android:textSize="16dp"
-        android:textAlignment="center"
+        android:orientation="vertical">
 
-        android:layout_marginHorizontal="20dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_cerrar_sesion_tienda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#0091ea"
+                android:src="@drawable/icon_logout"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/usuario_tienda"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Usuario"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginHorizontal="20dp"/>
+
+            <ImageButton
+                android:id="@+id/btn_carrito_tienda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#c42217"
+                android:src="@drawable/icon_carrito"
+                android:padding="10dp"/>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginVertical="20dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="170dp"
+                    android:layout_height="190dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imagen_producto"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/crus"
+                            android:scaleType="centerInside"/>
+
+                        <TextView
+                            android:id="@+id/nombre_producto"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Loza"
+                            android:textAlignment="center"
+                            android:layout_marginStart="11dp"
+                            android:textAppearance="?attr/textAppearanceHeadline6"/>
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="170dp"
+                    android:layout_height="190dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imagen_producto1"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/columna"
+                            android:scaleType="centerInside"/>
+
+                        <TextView
+                            android:id="@+id/nombre_producto1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Columna"
+                            android:textAlignment="center"
+                            android:layout_marginStart="10dp"
+                            android:textAppearance="?attr/textAppearanceHeadline6"/>
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="170dp"
+                    android:layout_height="190dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imagen_productoT"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/cuadritos"
+                            android:scaleType="centerInside"/>
+
+                        <TextView
+                            android:id="@+id/nombre_productoT"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Talabera"
+                            android:textAlignment="center"
+                            android:layout_marginStart="10dp"
+                            android:textAppearance="?attr/textAppearanceHeadline6"/>
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="170dp"
+                    android:layout_height="190dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imagen_productoE"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/esca"
+                            android:scaleType="centerInside"/>
+
+                        <TextView
+                            android:id="@+id/nombre_productoE"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Loza 2"
+                            android:textAlignment="center"
+                            android:layout_marginStart="10dp"
+                            android:textAppearance="?attr/textAppearanceHeadline6"/>
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="170dp"
+                    android:layout_height="190dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imagen_productoF"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/flecha"
+                            android:scaleType="centerInside"/>
+
+                        <TextView
+                            android:id="@+id/nombre_productoF"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Loza 3"
+                            android:textAlignment="center"
+                            android:layout_marginStart="10dp"
+                            android:textAppearance="?attr/textAppearanceHeadline6"/>
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="170dp"
+                    android:layout_height="190dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imagen_productoA"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/flores_ama"
+                            android:scaleType="centerInside"/>
+
+                        <TextView
+                            android:id="@+id/nombre_productoA"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Loza 4"
+                            android:textAlignment="center"
+                            android:layout_marginStart="10dp"
+                            android:textAppearance="?attr/textAppearanceHeadline6"/>
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="170dp"
+                    android:layout_height="190dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imagen_productoN"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/loza_negra"
+                            android:scaleType="centerInside"/>
+
+                        <TextView
+                            android:id="@+id/nombre_productoN"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Laminado 40X60"
+                            android:textAlignment="center"
+                            android:layout_marginStart="10dp"
+                            android:textAppearance="?attr/textAppearanceHeadline6"/>
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="170dp"
+                    android:layout_height="190dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imagen_productoM"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/masetas"
+                            android:scaleType="centerInside"/>
+
+                        <TextView
+                            android:id="@+id/nombre_productoM"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Macetas"
+                            android:textAlignment="center"
+                            android:layout_marginStart="10dp"
+                            android:textAppearance="?attr/textAppearanceHeadline6"/>
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="170dp"
+                    android:layout_height="190dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imagen_productoP"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/pidra_flor"
+                            android:scaleType="centerInside"/>
+
+                        <TextView
+                            android:id="@+id/nombre_productoP"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Loza"
+                            android:textAlignment="center"
+                            android:layout_marginStart="10dp"
+                            android:textAppearance="?attr/textAppearanceHeadline6"/>
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
 
 </ScrollView>
