@@ -28,15 +28,15 @@ class splashapp : AppCompatActivity() {
         }
         logo = findViewById(R.id.logo_splash)
         animacion = AnimationUtils.loadAnimation(this,R.anim.anim_splash)
-        logo.startAnimation(animacion)
-        Handler(Looper.getMainLooper()).postDelayed(
-            {
-                val intent = Intent(this, Login::class.java)
-                val trans = ActivityOptions.makeSceneTransitionAnimation(
-                    this, Pair(logo,"logo_trans"))
-                startActivity(intent, trans.toBundle())
-            },3000
-        )
+
+
+        logo.startAnimation(AnimationUtils.loadAnimation(this, R.anim.anim_splash))
+
+        Handler(Looper.getMainLooper()).postDelayed({
+            startActivity(Intent(this, Login::class.java))
+            overridePendingTransition(0, 0)
+        }, 3000)
+
     }
 
 }
