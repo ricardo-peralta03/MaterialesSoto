@@ -49,7 +49,7 @@ class Login : AppCompatActivity() {
             if (email.isNotEmpty() && pass.isNotEmpty())
                 auth.signInWithEmailAndPassword(email, pass).addOnCompleteListener {
                     if (it.isSuccessful) {
-                        db.collection("Usuarios").whereEqualTo("correo", email).get()
+                        db.collection("Usuarios_materiales").whereEqualTo("correo", email).get()
                             .addOnSuccessListener { documents ->
                                 for (document in documents) {
                                     usuario = Usuario(

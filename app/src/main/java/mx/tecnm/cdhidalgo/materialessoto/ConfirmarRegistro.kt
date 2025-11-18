@@ -60,7 +60,7 @@ class ConfirmarRegistro : AppCompatActivity() {
                     .addOnCompleteListener {
                         if (it.isSuccessful) {
                             val intent = Intent(this, Login::class.java).apply {
-                                db.collection("Usuarios").document(correo.toString()).set(usuario)
+                                db.collection("Usuarios_materiales").document(correo.toString()).set(usuario)
                             }
                             startActivity(intent)
                         } else {
